@@ -45,6 +45,10 @@ p {
   color: #ffffff;
 }
 
+.section-1 img {
+	float: right;
+}
+
 .section-2 { 
   background-color: #474e5d; /* Green */
   color: #ffffff;
