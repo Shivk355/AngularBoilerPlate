@@ -16,7 +16,7 @@
 	<link rel="stylesheet" href="main.css">
   </head>
 <body ng-app="">
-	<header>
+	<section class="section-1">
 		<nav class="navbar navbar-default">
 		  <div class="container">
 			<div class="navbar-header">
@@ -25,39 +25,58 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>                        
 			  </button>
-			  <a class="navbar-brand" href="#">About Me</a>
+			  <a class="navbar-brand" href="#">My Profile</a>
 			</div>
 			<div class="collapse navbar-collapse" id="myNavbar">
 			  <ul class="nav navbar-nav navbar-right">
 				<li><a href="#">HOME</a></li>
-				<li><a href="#">PAGE1</a></li>
-				<li><a href="#">PAGE2</a></li>
-				<li><a href="#">PAGE3</a></li>
+				<li><a href="#">ABOUT</a></li>
+				<li><a href="#">SKILL</a></li>
+				<li><a href="#">EDUCATION</a></li>
+				<li><a href="#">CONTACT</a></li>
 			  </ul>
 			</div>
 		  </div>
 		</nav>
-	</header>
-	<main>
-		<section>
-			<div class="container-fluid section-1">
-				 <img src="images/Me.jpg" class="img-responsive" alt="Shiv" width="200" height="200">
+		<div class="container banner">
+			<div class="row">
+				<div class="col-md-7 banner-text">
+					<h2><span>Hi !</span> I am Shiv</h2>
+					<h4>Web Developer</h4>
+				</div>
+				<div class="col-md-5 text-center">
+					<img src="images/Me.jpg" class="img-circle" width="220" height="300" alt="Shiv">
+				</div>
 			</div>
-		</section>
-		<section>
-			<div class="container-fluid section-2 text-center">
-				<p>Section 2</p>
+		</div>	
+	</section>
+	<section>
+		<div class="row">
+			<div class="col-md-12 about-me">
+				<div class=" text-center">
+					<h1>About Me</h1>
+				</div>
+				<div class="">
+					<ul>
+						<li><span>Name</span>: Shiv kumar Kushwaha</li>
+						<li><span>Age</span>: 25 Years</li>
+						<li><span>Experience</span>: 1 Years</li>
+						<li><span>Email</span>: shivk355@gamil.com</li>
+						<li><span>Contact</span>: 8730855120</li>
+						<li><span>Website</span>: xxxxxxx</li>
+						<li><span>Address</span>: Bangalore</li>
+					</ul>
+				</div>
+				
 			</div>
-		</section>
-		<section>
-			<div class="container-fluid section-3 text-center">
-				<p>Section 3</p>
-			</div>
-		</section>
-	</main>
-	<footer class="container-fluid footer text-center">
-		<p>Boilerplate &copy By Shiv</p>
-	</footer>
+		</div>
+	</section>
+<footer class="container-fluid footer text-center">
+	<p>My Info &copy Shiv</p>
+</footer>
+
+	
+
 </body>
 </html>
  

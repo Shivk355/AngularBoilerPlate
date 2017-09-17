@@ -14,49 +14,74 @@ body {
   margin: 0;
   padding-bottom: 6rem;
   min-height: 100%;
-  font: 20px Montserrat, sans-serif;
-  color: #f5f6f7;
+  font: 20px;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
-.container-fluid {
-  padding-top: 70px;
-  padding-bottom: 70px;
+.row {
+	margin : 0px;
 }
-
-.navbar {
+.navbar, navbar-brand {
   padding-top: 15px;
   padding-bottom: 15px;
   border: 0;
-  border-radius: 0;
-  margin-bottom: 0;
-  font-size: 12px;
+  font-size: 15px;
   letter-spacing: 1px;
-}	
+  background: transparent;
+}
+
+.navbar-nav li a {
+	color: #fbc02d !important;
+	font-weight: bold;
+}
+
 .navbar-nav  li a:hover {
-  color: #1abc9c !important;
+  color: #fff !important;
 }
 
-p {
+.navbar-brand {
+	font-size: 25px;
+	color: #fff !important;
+}
+
+.section-1 {
+	background: #0086fe;
+	height: 100%;
+}
+
+.banner-text {
+	padding: 5rem;
+}
+
+.banner span {
 	color: black;
+	font-weight: bold;
 }
 
-.section-1 { 
-  background-color: #1abc9c; /* Green */
-  color: #ffffff;
+.img-circle{
+	padding-bottom: 2rem;
 }
 
-.section-1 img {
-	float: right;
+.banner h2 {
+	color: #fbc02d;
+	letter-spacing: 3px;
 }
-
-.section-2 { 
-  background-color: #474e5d; /* Green */
-  color: #ffffff;
+.banner h4 {
+	letter-spacing: 3px;
 }
-
-.section-3 { 
-  background-color: #ffffff; /* Green */
-  color: black;
+.about-me li {
+    list-style: none;
+    display: block;
+    margin-bottom: 25px;
+    color: #8a8a8a;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+.about-me li span {
+	width: 141px;
+    display: inline-block;
+    color: #4a4a4a;
+    font-weight: 600;
 }
 /**
  * Footer Styles
